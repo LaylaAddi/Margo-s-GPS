@@ -20,7 +20,7 @@ public class CreateAccount extends AppCompatActivity {
   private EditText usernameField;
   private EditText passwordField;
   private Button createAccountButton;
-  
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -102,4 +102,3 @@ public class CreateAccount extends AppCompatActivity {
     }
   }
 }
-
