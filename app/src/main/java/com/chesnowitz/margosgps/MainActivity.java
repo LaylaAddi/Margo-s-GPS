@@ -22,13 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     createAccountButton.setOnClickListener(this);
   }
 
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-//    return super.onCreateOptionsMenu(menu);
-    MenuInflater inflater = getMenuInflater();
-    inflater.inflate(R.menu.main_menu, menu);
-    return true;
-  }
 
   @Override
   public void onClick(View v) {
